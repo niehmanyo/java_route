@@ -29,3 +29,20 @@
 1. 继承 Thread类的方式进行实现
 2. 实现 Runnable 接口的方式进行实现
 3. 利用 Callable 接口和 Future 接口方式实现
+
+
+```java
+/**
+ *  T 代表泛型，需要记录多线程运行完什么样类型的结果
+ * **/
+
+public class MyCallable implements Callable<T> {
+    @Override
+    public T call() throws Exception {
+        return null;
+    }
+}
+
+```
+
+![](images/多线程对比.png)

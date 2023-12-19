@@ -1,4 +1,4 @@
-package com.jvm;
+package com.jvm.day01;
 
 public class MyThread extends Thread{
 
