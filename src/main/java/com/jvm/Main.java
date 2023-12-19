@@ -16,6 +16,7 @@ public class Main {
 
 
 
+
     // 第二种创建多线程方式
     public static void printThread2(){
         MyRunnable myRunnable1 = new MyRunnable();
