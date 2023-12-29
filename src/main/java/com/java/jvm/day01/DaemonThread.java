@@ -1,4 +1,4 @@
-package com.jvm.day01;
+package com.java.jvm.day01;
 
 public class DaemonThread extends Thread{
     @Override
