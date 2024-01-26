@@ -21,10 +21,12 @@ public class Main {
 
     @Test
     public void testSort(){
-        int [][]array = {{1,3},{1,2},{1,5}};
-        for (int i = 0; i < array.length ; i++) {
-            System.out.println(array[i][0]+" "+array[i][1]);
-        }
+//        int [][]array = {{1,3},{1,2},{1,5}};
+//        for (int i = 0; i < array.length ; i++) {
+//            System.out.println(array[i][0]+" "+array[i][1]);
+//        }
+        Map<Integer,Integer> map = new HashMap<>();
+        
     }
 
 }
